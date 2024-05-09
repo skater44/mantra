@@ -22,7 +22,7 @@ source $config
 
 #install binary
 #put instalation script here
-$BINARY version
+$BINARY version 
 
 #init node and wallet
 $BINARY init $MONIKER --chain-id=$NETWORK --home $HOME/.$BINARY
